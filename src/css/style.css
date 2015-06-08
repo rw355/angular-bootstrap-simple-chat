@@ -83,11 +83,13 @@
 .chat-msg.chat-msg-receive {
   margin-right: 0;
   padding-bottom: 20px;
+  float: left;
 }
 /* line 28, ../sass/components/chat-msg.scss */
 .chat-msg.chat-msg-sent {
   margin-right: 0;
   padding-bottom: 20px;
+  float: right;
 }
 /* line 32, ../sass/components/chat-msg.scss */
 .chat-msg.chat-msg-sent .chat-msg-author {

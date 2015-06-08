@@ -8,15 +8,12 @@
   function SimpleChat() {
 
     var chatTemplate =
-    '<div class="row chat-window col-xs-5 col-md-3" ng-class="vm.theme" style="margin-left:10px;">' +
-      '<div class="col-xs-12 col-md-12">' +
+    '<div class="container col-xs-12 col-md-8" ng-class="vm.theme" style="margin-left:10px;">' +
+      '<div class="row col-xs-12 col-md-12">' +
         '<div class="panel">' +
           '<div class="panel-heading chat-top-bar">' +
             '<div class="col-md-8 col-xs-8">' +
               '<h3 class="panel-title"><span class="glyphicon glyphicon-comment"></span> {{vm.title}}</h3>' +
-            '</div>' +
-            '<div class="col-md-4 col-xs-4" style="text-align: right;">' +
-              '<span class="glyphicon" ng-class="vm.chatButtonClass" ng-click="vm.toggle()"></span>' +
             '</div>' +
           '</div>' +
           '<div class="panel-body msg-container-base" ng-style="vm.panelStyle" scroll-glue>' +
